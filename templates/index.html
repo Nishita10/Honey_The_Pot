@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusive Summer Deals - Welcome</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">BrandX</div>
+      <ul>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <li><a href="{{ url_for('address') }}">Contact</a></li>
+        <li><a href="{{ url_for('register') }}">Register</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="hero">
+      <div class="content">
+        <h1>Exclusive Summer Offers Just for You!</h1>
+        <p>
+          Enjoy luxury deals on sunglasses, beachwear, and more. Register now to
+          grab the best discounts.
+        </p>
+        <a href="{{ url_for('register') }}" class="btn">Sign Up Now</a>
+      </div>
+    </div>
+  </body>
+</html>

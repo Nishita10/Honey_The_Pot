@@ -1,0 +1,17 @@
+2025-03-23 18:32:52,489 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.200.126:5000
+2025-03-23 18:32:52,489 - [33mPress CTRL+C to quit[0m
+2025-03-23 18:32:52,493 -  * Restarting with stat
+2025-03-23 18:32:53,276 -  * Debugger is active!
+2025-03-23 18:32:53,281 -  * Debugger PIN: 507-411-392
+2025-03-23 19:11:53,438 -  * Detected change in 'c:\\Honey The Pot\\practice\\honeypot.py', reloading
+2025-03-23 19:11:53,643 -  * Restarting with stat
+2025-03-23 19:11:56,261 -  * Debugger is active!
+2025-03-23 19:11:56,275 -  * Debugger PIN: 507-411-392
+2025-03-23 19:12:04,156 - 127.0.0.1 - - [23/Mar/2025 19:12:04] "GET /dashboard HTTP/1.1" 200 -
+2025-03-23 19:12:05,341 - 127.0.0.1 - - [23/Mar/2025 19:12:05] "[35m[1mGET /graph/types HTTP/1.1[0m" 500 -
+2025-03-23 19:12:05,484 - 127.0.0.1 - - [23/Mar/2025 19:12:05] "[35m[1mGET /graph/timeline HTTP/1.1[0m" 500 -
+2025-03-23 19:12:07,723 - 127.0.0.1 - - [23/Mar/2025 19:12:07] "[35m[1mGET /graph/risk HTTP/1.1[0m" 500 -
+2025-03-23 19:12:08,045 - 127.0.0.1 - - [23/Mar/2025 19:12:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

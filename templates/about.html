@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Exclusive Offers</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    {% include 'navbar.html' %}
+
+    <div class="about-container">
+      <h1>Welcome to Our Summer Specials!</h1>
+      <p>Choose one of the amazing offers below:</p>
+
+      <form action="{{ url_for('track_selection') }}" method="POST">
+        <button type="submit" name="selection" value="Summer Time Offers">
+          Summer Time Offers
+        </button>
+        <button type="submit" name="selection" value="Exclusive Trip">
+          Exclusive Trip
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
